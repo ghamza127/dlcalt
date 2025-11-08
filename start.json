@@ -1,0 +1,14 @@
+{
+  "name": "Run Deep-Live-Cam",
+  "description": "Launch Deep-Live-Cam GUI / Web interface",
+  "version": "1.0.0",
+  "author": "Hamza",
+  "commands": [
+    {
+      "name": "Run Deep-Live-Cam",
+      "cmd": ".\\deeplive_env\\Scripts\\activate && python app.py",
+      "path": ".",
+      "run": true
+    }
+  ]
+}
