@@ -1,0 +1,9 @@
+{
+  "name": "Deep-Live-Cam",
+  "description": "Face-swap app (Windows + NVIDIA GPU) integrated into Pinokio",
+  "author": "Hamza",
+  "version": "1.0.0",
+  "appType": "local",
+  "scriptVersion": 3,
+  "commandsPath": "commands"
+}
