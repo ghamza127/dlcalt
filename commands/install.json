@@ -1,0 +1,18 @@
+{
+  "name": "Install Environment",
+  "description": "Creates Python virtual environment and installs dependencies",
+  "commands": [
+    {
+      "name": "Setup Python Environment",
+      "cmd": "python -m venv deeplive_env && .\\deeplive_env\\Scripts\\activate && pip install --upgrade pip && pip install -r requirements.txt && pip uninstall -y onnxruntime && pip install onnxruntime-gpu==1.16.3",
+      "path": ".",
+      "run": true
+    },
+    {
+      "name": "Create Models Folder",
+      "cmd": "mkdir models",
+      "path": ".",
+      "run": true
+    }
+  ]
+}
