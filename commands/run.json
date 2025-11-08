@@ -1,0 +1,12 @@
+{
+  "name": "Run Deep-Live-Cam",
+  "description": "Launch Deep-Live-Cam GUI / Web interface",
+  "commands": [
+    {
+      "name": "Launch App",
+      "cmd": ".\\deeplive_env\\Scripts\\activate && python app.py",
+      "path": ".",
+      "run": true
+    }
+  ]
+}
